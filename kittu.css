@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg,#fde2e4,#e2f0cb,#d0f4de,#cdb4db);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    text-align:center;
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    width:450px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.title{
+    color:#c08497;
+    font-size:32px;
+}
+
+.message{
+    color:#6b7280;
+    font-size:18px;
+    margin-top:15px;
+}
+
+.card{
+    background:#fdf4ff;
+    margin-top:25px;
+    padding:20px;
+    border-radius:15px;
+    color:#7c3aed;
+    font-size:17px;
+}
+
+.footer{
+    margin-top:25px;
+    color:#ec4899;
+    font-weight:bold;
+}
